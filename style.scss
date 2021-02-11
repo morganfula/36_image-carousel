@@ -28,7 +28,10 @@ body {
 
   img {
     width: 500px;
-    height: 500px;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     object-fit: cover;
   }
 
