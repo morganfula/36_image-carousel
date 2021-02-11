@@ -12,13 +12,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #264e79;
 }
 
 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   height: 530px;
-  width: 500px;
+  width: 499px;
   overflow: hidden;
+  border-radius: 20px;
 
   .image-container {
     display: flex;
@@ -28,7 +30,7 @@ body {
 
   img {
     width: 500px;
-    height: 800px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +42,7 @@ body {
     justify-content: space-between;
 
     .btn {
-      background-color: royalblue;
+      background-color: #669bd4;
       border: none;
       color: #fff;
       padding: 0.5rem;
